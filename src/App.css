@@ -37,3 +37,18 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .info .row {
+    display: block;
+  }
+}
+.info {
+  padding-top: 50px;
+}
+
+.hacked-typed {
+  /* color: red; */
+  font-family: "Odibee Sans", cursive;
+  font-size: 40px;
+}
